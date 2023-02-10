@@ -51,22 +51,24 @@
 
 @keyframes fly {
   from {
-    transform: translate(100%);
+    transform: translateX(0px);
   }
 
   to {
-    transform: translate(-500%);
+    transform: translateX(-25%);
   }
 }
 
 @keyframes upper_mouth {
   50% {
-    transform: rotate(44deg);
+    transform: rotate(-44deg);
+    top: 6%;
   }
 }
 
 @keyframes lower_mouth {
   50% {
-    transform: rotate(-44deg);
+    transform: rotate(44deg);
+    bottom: 6%;
   }
 }
